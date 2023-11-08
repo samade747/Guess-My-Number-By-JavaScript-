@@ -10,13 +10,14 @@
 <body>
     <div class="container mt-5 ">
         <div class="row box d-flex align-items-center justify-content-center">
-            <div class="col-6 d-flex justify-content-center align-content-center btn btn-primary">
-                
+
+            <div class="col btn btn-primary">
+                <div>
                 <button onclick="index.html">Again!</button>
-                
+                </div>  
             </div>
 
-            <div class="col-6 d-flex justify-content-end">
+            <div class="col d-flex justify-content-end">
                 <p>(Between 1 and 20)</p>
             </div>
 
@@ -24,19 +25,19 @@
                 <h1>Guess My Number</h1>
             </div>
 
-            <div class="mt-5" ><img src="./img/1.PNG" alt="" width="auto" > </div>
+            <div class="mt-5" > <hr> </div>
 
-            <div class="col-6 mt-5 mb-5" >
+            <div class="col mt-5 mb-5" >
                 <input type="number" placeholder="number" id="userinput">
-                <button onclick="answercheckhandler()" class="btn btn-outline-danger">Check!</button>
+                <button onclick="answercheckhandler()" class="btn btn-outline-danger mt-5">Check!</button>
             </div>
 
 
-            <div class="col-6 mt-5" >
-                <h3 id="remarks">Too High!</h3>
+            <div class="col mt-5" >
+                <h3 id="remarks">Start Guessing!</h3>
 
-                <h3 id="result">Score: </h3>
-                <h3 id="Highscore">Highscore!: </h3>
+                <h3 id="result">Score:  20</h3>
+                <h3 id="Highscore">Highscore!:  0</h3>
             </div>
 
 
